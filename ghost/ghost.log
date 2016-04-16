@@ -1,0 +1,1436 @@
+[Sat Apr 16 13:00:55 2016] [GHOST] starting up
+[Sat Apr 16 13:00:55 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sat Apr 16 13:00:55 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sat Apr 16 13:00:55 2016] [GHOST] starting winsock
+[Sat Apr 16 13:00:55 2016] [GHOST] setting process priority to "above normal"
+[Sat Apr 16 13:00:55 2016] [UDPSOCKET] using default broadcast target
+[Sat Apr 16 13:00:55 2016] [GHOST] opening primary database
+[Sat Apr 16 13:00:55 2016] [SQLITE3] version 3.6.16
+[Sat Apr 16 13:00:55 2016] [SQLITE3] opening database [ghost.dbs]
+[Sat Apr 16 13:00:55 2016] [SQLITE3] prepare error getting schema number - no such table: config
+[Sat Apr 16 13:00:55 2016] [SQLITE3] couldn't find schema number, looking for admins table
+[Sat Apr 16 13:00:55 2016] [SQLITE3] couldn't find admins table, assuming database is empty
+[Sat Apr 16 13:00:55 2016] [GHOST] opening secondary (local) database
+[Sat Apr 16 13:00:55 2016] [SQLITE3] version 3.6.16
+[Sat Apr 16 13:00:55 2016] [SQLITE3] opening database [ghost.dbs]
+[Sat Apr 16 13:00:55 2016] [SQLITE3] found schema number [8]
+[Sat Apr 16 13:00:55 2016] [GHOST] attempting to find local IP addresses
+[Sat Apr 16 13:00:55 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sat Apr 16 13:00:55 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sat Apr 16 13:00:55 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sat Apr 16 13:00:55 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sat Apr 16 13:00:55 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sat Apr 16 13:00:55 2016] [CONFIG] loading file [language.cfg]
+[Sat Apr 16 13:00:55 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sat Apr 16 13:00:55 2016] [GHOST] warning - no battle.net connections found in config file
+[Sat Apr 16 13:00:55 2016] [GHOST] warning - unable to load MPQ file [C:\Program Files\Warcraft III\War3Patch.mpq] - error code 3
+[Sat Apr 16 13:00:55 2016] [GHOST] adding ".cfg" to default map -> new default is [wormwar.cfg]
+[Sat Apr 16 13:00:55 2016] [CONFIG] loading file [mapcfgs\wormwar.cfg]
+[Sat Apr 16 13:00:55 2016] [UTIL] warning - unable to read file [maps\(12)WormWar.w3x]
+[Sat Apr 16 13:00:55 2016] [MAP] warning - unable to load MPQ file [maps\(12)WormWar.w3x]
+[Sat Apr 16 13:00:55 2016] [MAP] no map data available, using config file for map_size, map_info, map_crc, map_sha1
+[Sat Apr 16 13:00:55 2016] [MAP] no map data available, using config file for map_options, map_width, map_height, map_slot<x>, map_numplayers, map_numteams
+[Sat Apr 16 13:00:55 2016] [GHOST] using hardcoded admin game map
+[Sat Apr 16 13:00:55 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sat Apr 16 13:00:55 2016] [GHOST] started loading [ip-to-country.csv]
+[Sat Apr 16 13:00:56 2016] [GHOST] iptocountry data: 10% loaded
+[Sat Apr 16 13:00:57 2016] [GHOST] iptocountry data: 20% loaded
+[Sat Apr 16 13:00:57 2016] [GHOST] iptocountry data: 30% loaded
+[Sat Apr 16 13:00:58 2016] [GHOST] iptocountry data: 40% loaded
+[Sat Apr 16 13:00:59 2016] [GHOST] iptocountry data: 50% loaded
+[Sat Apr 16 13:01:00 2016] [GHOST] iptocountry data: 60% loaded
+[Sat Apr 16 13:01:00 2016] [GHOST] iptocountry data: 70% loaded
+[Sat Apr 16 13:01:01 2016] [GHOST] iptocountry data: 80% loaded
+[Sat Apr 16 13:01:02 2016] [GHOST] iptocountry data: 90% loaded
+[Sat Apr 16 13:01:02 2016] [GHOST] iptocountry data: 100% loaded
+[Sat Apr 16 13:01:02 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sat Apr 16 13:01:02 2016] [GHOST] warning - no battle.net connections found and no admin game created
+[Sat Apr 16 13:01:02 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sat Apr 16 13:03:20 2016] [GHOST] starting up
+[Sat Apr 16 13:03:20 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sat Apr 16 13:03:20 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sat Apr 16 13:03:20 2016] [GHOST] starting winsock
+[Sat Apr 16 13:03:20 2016] [GHOST] setting process priority to "above normal"
+[Sat Apr 16 13:03:20 2016] [UDPSOCKET] using default broadcast target
+[Sat Apr 16 13:03:20 2016] [GHOST] opening primary database
+[Sat Apr 16 13:03:20 2016] [SQLITE3] version 3.6.16
+[Sat Apr 16 13:03:20 2016] [SQLITE3] opening database [ghost.dbs]
+[Sat Apr 16 13:03:20 2016] [SQLITE3] found schema number [8]
+[Sat Apr 16 13:03:20 2016] [GHOST] opening secondary (local) database
+[Sat Apr 16 13:03:20 2016] [SQLITE3] version 3.6.16
+[Sat Apr 16 13:03:20 2016] [SQLITE3] opening database [ghost.dbs]
+[Sat Apr 16 13:03:20 2016] [SQLITE3] found schema number [8]
+[Sat Apr 16 13:03:20 2016] [GHOST] attempting to find local IP addresses
+[Sat Apr 16 13:03:20 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sat Apr 16 13:03:20 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sat Apr 16 13:03:20 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sat Apr 16 13:03:20 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sat Apr 16 13:03:20 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sat Apr 16 13:03:20 2016] [CONFIG] loading file [language.cfg]
+[Sat Apr 16 13:03:20 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sat Apr 16 13:03:20 2016] [GHOST] warning - no battle.net connections found in config file
+[Sat Apr 16 13:03:20 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sat Apr 16 13:03:20 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sat Apr 16 13:03:20 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sat Apr 16 13:03:20 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sat Apr 16 13:03:20 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sat Apr 16 13:03:21 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_size = 21 157 111 0
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_info = 13 193 185 32
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_options = 96
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_width = 118 0
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_height = 120 0
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_numplayers = 10
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_numteams = 2
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sat Apr 16 13:03:21 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sat Apr 16 13:03:21 2016] [MAP] overriding slots
+[Sat Apr 16 13:03:21 2016] [MAP] adding 0 observer slots
+[Sat Apr 16 13:03:21 2016] [GHOST] using hardcoded admin game map
+[Sat Apr 16 13:03:21 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sat Apr 16 13:03:21 2016] [GHOST] started loading [ip-to-country.csv]
+[Sat Apr 16 13:03:21 2016] [GHOST] iptocountry data: 10% loaded
+[Sat Apr 16 13:03:22 2016] [GHOST] iptocountry data: 20% loaded
+[Sat Apr 16 13:03:23 2016] [GHOST] iptocountry data: 30% loaded
+[Sat Apr 16 13:03:23 2016] [GHOST] iptocountry data: 40% loaded
+[Sat Apr 16 13:03:24 2016] [GHOST] iptocountry data: 50% loaded
+[Sat Apr 16 13:03:30 2016] [GHOST] iptocountry data: 60% loaded
+[Sat Apr 16 13:03:30 2016] [GHOST] iptocountry data: 70% loaded
+[Sat Apr 16 13:03:31 2016] [GHOST] iptocountry data: 80% loaded
+[Sat Apr 16 13:03:32 2016] [GHOST] iptocountry data: 90% loaded
+[Sat Apr 16 13:03:32 2016] [GHOST] iptocountry data: 100% loaded
+[Sat Apr 16 13:03:32 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sat Apr 16 13:03:32 2016] [GHOST] creating admin game
+[Sat Apr 16 13:03:32 2016] [GAME: GHost++ Admin Game] loading IP blacklist file [ipblacklist.txt]
+[Sat Apr 16 13:03:32 2016] [GAME: GHost++ Admin Game] loaded 635 lines from IP blacklist file
+[Sat Apr 16 13:03:32 2016] [GAME: GHost++ Admin Game] attempting to bind to all available addresses
+[Sat Apr 16 13:03:32 2016] [GAME: GHost++ Admin Game] listening on port 6113
+[Sat Apr 16 13:03:32 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sat Apr 16 13:03:32 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sat Apr 16 13:03:57 2016] [GAME: GHost++ Admin Game] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sat Apr 16 13:04:03 2016] [GAME: GHost++ Admin Game] [Lobby] [[[-HaCKer-]]]: !password 1234
+[Sat Apr 16 13:04:03 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [password] with payload [1234]
+[Sat Apr 16 13:04:03 2016] [ADMINGAME] user [[[-HaCKer-]]] logged in
+[Sat Apr 16 13:04:06 2016] [GAME: GHost++ Admin Game] [Lobby] [[[-HaCKer-]]]: !pub 99
+[Sat Apr 16 13:04:06 2016] [ADMINGAME] admin [[[-HaCKer-]]] sent command [pub] with payload [99]
+[Sat Apr 16 13:04:06 2016] [GHOST] creating game [99]
+[Sat Apr 16 13:04:06 2016] [GAME: 99] loading IP blacklist file [ipblacklist.txt]
+[Sat Apr 16 13:04:06 2016] [GAME: 99] loaded 635 lines from IP blacklist file
+[Sat Apr 16 13:04:06 2016] [GAME: 99] attempting to bind to all available addresses
+[Sat Apr 16 13:04:06 2016] [GAME: 99] listening on port 6112
+[Sat Apr 16 13:04:06 2016] [STATSDOTA] using dota stats
+[Sat Apr 16 13:04:06 2016] [GAME: GHost++ Admin Game] [Local]: Creating public game [99] started by [[[-HaCKer-]]].
+[Sat Apr 16 13:04:08 2016] [GAME: GHost++ Admin Game] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sat Apr 16 13:04:11 2016] [GAME: 99] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sat Apr 16 13:04:17 2016] [GAME: 99] [Lobby] [[[-HaCKer-]]]: !voteend
+[Sat Apr 16 13:04:17 2016] [GAME: 99] admin [[[-HaCKer-]]] sent command [voteend] with payload []
+[Sat Apr 16 13:04:26 2016] [GAME: 99] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sat Apr 16 13:07:39 2016] [GHOST] starting up
+[Sat Apr 16 13:07:39 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sat Apr 16 13:07:39 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sat Apr 16 13:07:39 2016] [GHOST] starting winsock
+[Sat Apr 16 13:07:39 2016] [GHOST] setting process priority to "above normal"
+[Sat Apr 16 13:07:39 2016] [UDPSOCKET] using default broadcast target
+[Sat Apr 16 13:07:39 2016] [GHOST] opening primary database
+[Sat Apr 16 13:07:39 2016] [SQLITE3] version 3.6.16
+[Sat Apr 16 13:07:39 2016] [SQLITE3] opening database [ghost.dbs]
+[Sat Apr 16 13:07:39 2016] [SQLITE3] found schema number [8]
+[Sat Apr 16 13:07:39 2016] [GHOST] opening secondary (local) database
+[Sat Apr 16 13:07:39 2016] [SQLITE3] version 3.6.16
+[Sat Apr 16 13:07:39 2016] [SQLITE3] opening database [ghost.dbs]
+[Sat Apr 16 13:07:39 2016] [SQLITE3] found schema number [8]
+[Sat Apr 16 13:07:39 2016] [GHOST] attempting to find local IP addresses
+[Sat Apr 16 13:07:39 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sat Apr 16 13:07:39 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sat Apr 16 13:07:39 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sat Apr 16 13:07:39 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sat Apr 16 13:07:39 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sat Apr 16 13:07:39 2016] [CONFIG] loading file [language.cfg]
+[Sat Apr 16 13:07:39 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sat Apr 16 13:07:39 2016] [GHOST] warning - no battle.net connections found in config file
+[Sat Apr 16 13:07:39 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sat Apr 16 13:07:39 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sat Apr 16 13:07:39 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sat Apr 16 13:07:39 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sat Apr 16 13:07:39 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sat Apr 16 13:07:39 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_size = 21 157 111 0
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_info = 13 193 185 32
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_options = 96
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_width = 118 0
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_height = 120 0
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_numplayers = 10
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_numteams = 2
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sat Apr 16 13:07:39 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sat Apr 16 13:07:40 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sat Apr 16 13:07:40 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sat Apr 16 13:07:40 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sat Apr 16 13:07:40 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sat Apr 16 13:07:40 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sat Apr 16 13:07:40 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sat Apr 16 13:07:40 2016] [MAP] overriding slots
+[Sat Apr 16 13:07:40 2016] [MAP] adding 0 observer slots
+[Sat Apr 16 13:07:40 2016] [GHOST] using hardcoded admin game map
+[Sat Apr 16 13:07:40 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sat Apr 16 13:07:40 2016] [GHOST] started loading [ip-to-country.csv]
+[Sat Apr 16 13:07:41 2016] [GHOST] iptocountry data: 10% loaded
+[Sat Apr 16 13:07:42 2016] [GHOST] iptocountry data: 20% loaded
+[Sat Apr 16 13:07:43 2016] [GHOST] iptocountry data: 30% loaded
+[Sat Apr 16 13:07:45 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 01:04:59 2016] [GHOST] starting up
+[Sun Apr 17 01:04:59 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 01:04:59 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 01:04:59 2016] [GHOST] starting winsock
+[Sun Apr 17 01:04:59 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 01:04:59 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 01:04:59 2016] [GHOST] opening primary database
+[Sun Apr 17 01:04:59 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 01:04:59 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 01:04:59 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 01:04:59 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 01:04:59 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 01:04:59 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 01:04:59 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 01:04:59 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 01:04:59 2016] [GHOST] local IP address #1 is [192.168.73.1]
+[Sun Apr 17 01:04:59 2016] [GHOST] local IP address #2 is [192.168.153.1]
+[Sun Apr 17 01:04:59 2016] [GHOST] local IP address #3 is [127.0.0.1]
+[Sun Apr 17 01:04:59 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 01:04:59 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 01:04:59 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 01:04:59 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 01:04:59 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 01:04:59 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 01:04:59 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 01:04:59 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 01:04:59 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 01:04:59 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 01:04:59 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 01:04:59 2016] [MAP] overriding slots
+[Sun Apr 17 01:04:59 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 01:04:59 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 01:04:59 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 01:04:59 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 01:05:00 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 01:05:01 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 01:05:02 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 01:05:03 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 01:05:03 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 01:05:04 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 01:05:05 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 01:05:06 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 01:05:07 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 01:05:08 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 01:05:08 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 01:05:08 2016] [GHOST] creating admin game
+[Sun Apr 17 01:05:08 2016] [GAME: GHost++ Admin Game] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 01:05:08 2016] [GAME: GHost++ Admin Game] loaded 635 lines from IP blacklist file
+[Sun Apr 17 01:05:08 2016] [GAME: GHost++ Admin Game] attempting to bind to all available addresses
+[Sun Apr 17 01:05:08 2016] [GAME: GHost++ Admin Game] listening on port 6113
+[Sun Apr 17 01:05:08 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 01:05:08 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 01:06:05 2016] [GAME: GHost++ Admin Game] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 02:05:53 2016] [GAME: GHost++ Admin Game] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 04:08:26 2016] [GHOST] starting up
+[Sun Apr 17 04:08:26 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 04:08:26 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 04:08:26 2016] [GHOST] starting winsock
+[Sun Apr 17 04:08:26 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 04:08:26 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 04:08:26 2016] [GHOST] opening primary database
+[Sun Apr 17 04:08:26 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:08:26 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:08:26 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:08:26 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 04:08:26 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:08:26 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:08:26 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:08:26 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 04:08:26 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 04:08:26 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 04:08:26 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 04:08:26 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 04:08:26 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 04:08:26 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 04:08:26 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 04:08:26 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 04:08:26 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 04:08:26 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 04:08:26 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 04:08:26 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 04:08:26 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 04:08:27 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 04:08:27 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 04:08:28 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 04:08:28 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 04:08:28 2016] [MAP] overriding slots
+[Sun Apr 17 04:08:28 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 04:08:28 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 04:08:28 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 04:08:28 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 04:08:29 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 04:08:30 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 04:08:32 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 04:08:33 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 04:08:34 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 04:08:35 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 04:08:36 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 04:08:38 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 04:08:39 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 04:08:40 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 04:08:40 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 04:08:40 2016] [GHOST] creating admin game
+[Sun Apr 17 04:08:40 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:08:40 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:08:40 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] attempting to bind to all available addresses
+[Sun Apr 17 04:08:40 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] listening on port 6113
+[Sun Apr 17 04:08:40 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 04:08:40 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 04:08:46 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:08:46 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:46 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:46 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:46 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:46 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:46 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:46 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:46 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:46 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:47 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:48 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:52 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Please start game
+[Sun Apr 17 04:08:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 04:09:07 2016] [!!!] caught signal 2, exiting nicely
+[Sun Apr 17 04:09:07 2016] [GHOST] deleting admin game in preparation for exiting nicely
+[Sun Apr 17 04:09:07 2016] [GHOST] all games finished, waiting 60 seconds for threads to finish
+[Sun Apr 17 04:09:07 2016] [GHOST] there are 0 threads in progress
+[Sun Apr 17 04:09:07 2016] [GHOST] all threads finished, exiting nicely
+[Sun Apr 17 04:09:07 2016] [GHOST] shutting down
+[Sun Apr 17 04:09:07 2016] [SQLITE3] closing database [ghost.dbs]
+[Sun Apr 17 04:09:07 2016] [SQLITE3] closing database [ghost.dbs]
+[Sun Apr 17 04:09:07 2016] [GHOST] shutting down winsock
+[Sun Apr 17 04:24:26 2016] [GHOST] starting up
+[Sun Apr 17 04:24:26 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 04:24:26 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 04:24:26 2016] [GHOST] starting winsock
+[Sun Apr 17 04:24:26 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 04:24:26 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 04:24:26 2016] [GHOST] opening primary database
+[Sun Apr 17 04:24:26 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:24:26 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:24:26 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:24:26 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 04:24:26 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:24:26 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:24:26 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:24:26 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 04:24:26 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 04:24:26 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 04:24:26 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 04:24:26 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 04:24:26 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 04:24:26 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 04:24:26 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 04:24:26 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 04:24:26 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 04:24:26 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 04:24:26 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 04:24:26 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 04:24:26 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 04:24:27 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 04:24:27 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 04:24:27 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 04:24:27 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 04:24:27 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 04:24:28 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 04:24:28 2016] [MAP] overriding slots
+[Sun Apr 17 04:24:28 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 04:24:28 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 04:24:28 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 04:24:28 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 04:24:29 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 04:24:30 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 04:24:32 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 04:24:33 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 04:24:34 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 04:24:35 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 04:24:36 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 04:24:37 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 04:24:39 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 04:24:40 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 04:24:40 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 04:24:40 2016] [GHOST] creating admin game
+[Sun Apr 17 04:24:40 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:24:40 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:24:40 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] attempting to bind to all available addresses
+[Sun Apr 17 04:24:40 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] listening on port 6113
+[Sun Apr 17 04:24:40 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 04:24:40 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 04:24:45 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:24:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !pub dd
+[Sun Apr 17 04:24:51 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [pub] with payload [dd]
+[Sun Apr 17 04:25:00 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !password 1234
+[Sun Apr 17 04:25:00 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [password] with payload [1234]
+[Sun Apr 17 04:25:00 2016] [ADMINGAME] user [[[-HaCKer-]]] logged in
+[Sun Apr 17 04:25:04 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !pub ll
+[Sun Apr 17 04:25:04 2016] [ADMINGAME] admin [[[-HaCKer-]]] sent command [pub] with payload [ll]
+[Sun Apr 17 04:25:04 2016] [GHOST] creating game [ll]
+[Sun Apr 17 04:25:04 2016] [GAME: ll] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:25:04 2016] [GAME: ll] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:25:04 2016] [GAME: ll] attempting to bind to all available addresses
+[Sun Apr 17 04:25:04 2016] [GAME: ll] listening on port 6112
+[Sun Apr 17 04:25:04 2016] [STATSDOTA] using dota stats
+[Sun Apr 17 04:25:04 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Creating public game [ll] started by [[[-HaCKer-]]].
+[Sun Apr 17 04:25:06 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 04:25:09 2016] [GAME: ll] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:25:16 2016] [GAME: ll] [Lobby] [[[-HaCKer-]]]: !ping
+[Sun Apr 17 04:25:16 2016] [GAME: ll] admin [[[-HaCKer-]]] sent command [ping] with payload []
+[Sun Apr 17 04:25:16 2016] [GAME: ll] [Local]: [[-HaCKer-]]: 1ms
+[Sun Apr 17 04:25:18 2016] [GAME: ll] [Lobby] [[[-HaCKer-]]]: !lock
+[Sun Apr 17 04:25:18 2016] [GAME: ll] admin [[[-HaCKer-]]] sent command [lock] with payload []
+[Sun Apr 17 04:25:18 2016] [GAME: ll] [Local]: Game locked. Only the game owner and root admins can run game commands.
+[Sun Apr 17 04:25:24 2016] [GAME: ll] [Local]: Please start game within 9 mins. 40 sec.
+[Sun Apr 17 04:25:44 2016] [GAME: ll] [Local]: Please start game within 9 mins. 20 sec.
+[Sun Apr 17 04:26:04 2016] [GAME: ll] [Local]: Please start game within 9 mins. 0 sec.
+[Sun Apr 17 04:26:24 2016] [GAME: ll] [Local]: Please start game within 8 mins. 40 sec.
+[Sun Apr 17 04:26:44 2016] [GAME: ll] [Local]: Please start game within 8 mins. 20 sec.
+[Sun Apr 17 04:27:04 2016] [GAME: ll] [Local]: Please start game within 8 mins. 0 sec.
+[Sun Apr 17 04:27:24 2016] [GAME: ll] [Local]: Please start game within 7 mins. 40 sec.
+[Sun Apr 17 04:27:44 2016] [GAME: ll] [Local]: Please start game within 7 mins. 20 sec.
+[Sun Apr 17 04:28:04 2016] [GAME: ll] [Local]: Please start game within 7 mins. 0 sec.
+[Sun Apr 17 04:28:24 2016] [GAME: ll] [Local]: Please start game within 6 mins. 40 sec.
+[Sun Apr 17 04:28:44 2016] [GAME: ll] [Local]: Please start game within 6 mins. 20 sec.
+[Sun Apr 17 04:29:04 2016] [GAME: ll] [Local]: Please start game within 6 mins. 0 sec.
+[Sun Apr 17 04:29:24 2016] [GAME: ll] [Local]: Please start game within 5 mins. 40 sec.
+[Sun Apr 17 04:29:44 2016] [GAME: ll] [Local]: Please start game within 5 mins. 20 sec.
+[Sun Apr 17 04:30:04 2016] [GAME: ll] [Local]: Please start game within 5 mins. 0 sec.
+[Sun Apr 17 04:30:24 2016] [GAME: ll] [Local]: Please start game within 4 mins. 40 sec.
+[Sun Apr 17 04:30:44 2016] [GAME: ll] [Local]: Please start game within 4 mins. 20 sec.
+[Sun Apr 17 04:31:04 2016] [GAME: ll] [Local]: Please start game within 4 mins. 0 sec.
+[Sun Apr 17 04:31:24 2016] [GAME: ll] [Local]: Please start game within 3 mins. 40 sec.
+[Sun Apr 17 04:31:44 2016] [GAME: ll] [Local]: Please start game within 3 mins. 20 sec.
+[Sun Apr 17 04:32:04 2016] [GAME: ll] [Local]: Please start game within 3 mins. 0 sec.
+[Sun Apr 17 04:32:24 2016] [GAME: ll] [Local]: Please start game within 2 mins. 40 sec.
+[Sun Apr 17 04:32:44 2016] [GAME: ll] [Local]: Please start game within 2 mins. 20 sec.
+[Sun Apr 17 04:33:04 2016] [GAME: ll] [Local]: Please start game within 2 mins. 0 sec.
+[Sun Apr 17 04:33:05 2016] [!!!] caught signal 2, exiting nicely
+[Sun Apr 17 04:33:06 2016] [GHOST] deleting current game in preparation for exiting nicely
+[Sun Apr 17 04:33:06 2016] [GHOST] deleting admin game in preparation for exiting nicely
+[Sun Apr 17 04:33:06 2016] [GHOST] all games finished, waiting 60 seconds for threads to finish
+[Sun Apr 17 04:33:06 2016] [GHOST] there are 0 threads in progress
+[Sun Apr 17 04:33:06 2016] [GHOST] all threads finished, exiting nicely
+[Sun Apr 17 04:33:06 2016] [GHOST] shutting down
+[Sun Apr 17 04:33:06 2016] [SQLITE3] closing database [ghost.dbs]
+[Sun Apr 17 04:33:06 2016] [SQLITE3] closing database [ghost.dbs]
+[Sun Apr 17 04:33:06 2016] [GHOST] shutting down winsock
+[Sun Apr 17 04:33:10 2016] [GHOST] starting up
+[Sun Apr 17 04:33:10 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 04:33:10 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 04:33:10 2016] [GHOST] starting winsock
+[Sun Apr 17 04:33:10 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 04:33:10 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 04:33:10 2016] [GHOST] opening primary database
+[Sun Apr 17 04:33:10 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:33:10 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:33:10 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:33:10 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 04:33:10 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:33:10 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:33:10 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:33:10 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 04:33:10 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 04:33:10 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 04:33:10 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 04:33:10 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 04:33:10 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 04:33:10 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 04:33:10 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 04:33:10 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 04:33:10 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 04:33:10 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 04:33:10 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 04:33:10 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 04:33:10 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 04:33:10 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 04:33:10 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 04:33:10 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 04:33:10 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 04:33:10 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 04:33:10 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 04:33:11 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 04:33:11 2016] [MAP] overriding slots
+[Sun Apr 17 04:33:11 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 04:33:11 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 04:33:11 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 04:33:11 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 04:33:12 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 04:33:13 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 04:33:41 2016] [GHOST] starting up
+[Sun Apr 17 04:33:41 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 04:33:41 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 04:33:41 2016] [GHOST] starting winsock
+[Sun Apr 17 04:33:41 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 04:33:41 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 04:33:41 2016] [GHOST] opening primary database
+[Sun Apr 17 04:33:41 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:33:41 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:33:41 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:33:41 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 04:33:41 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:33:41 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:33:41 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:33:41 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 04:33:41 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 04:33:41 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 04:33:41 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 04:33:41 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 04:33:41 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 04:33:41 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 04:33:41 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 04:33:41 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 04:33:41 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 04:33:41 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 04:33:41 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 04:33:41 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 04:33:41 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 04:33:42 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 04:33:42 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 04:33:42 2016] [MAP] overriding slots
+[Sun Apr 17 04:33:42 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 04:33:42 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 04:33:42 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 04:33:42 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 04:33:43 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 04:33:44 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 04:33:45 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 04:33:47 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 04:33:48 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 04:33:49 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 04:33:51 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 04:33:52 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 04:33:53 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 04:33:55 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 04:33:55 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 04:33:55 2016] [GHOST] creating admin game
+[Sun Apr 17 04:33:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:33:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:33:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] attempting to bind to all available addresses
+[Sun Apr 17 04:33:55 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] listening on port 6113
+[Sun Apr 17 04:33:55 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 04:33:55 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 04:34:03 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:34:12 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !password 1234
+[Sun Apr 17 04:34:12 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [password] with payload [1234]
+[Sun Apr 17 04:34:12 2016] [ADMINGAME] user [[[-HaCKer-]]] logged in
+[Sun Apr 17 04:34:17 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !pub gg
+[Sun Apr 17 04:34:17 2016] [ADMINGAME] admin [[[-HaCKer-]]] sent command [pub] with payload [gg]
+[Sun Apr 17 04:34:17 2016] [GHOST] creating game [gg]
+[Sun Apr 17 04:34:17 2016] [GAME: gg] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:34:17 2016] [GAME: gg] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:34:17 2016] [GAME: gg] attempting to bind to all available addresses
+[Sun Apr 17 04:34:17 2016] [GAME: gg] listening on port 6112
+[Sun Apr 17 04:34:17 2016] [STATSDOTA] using dota stats
+[Sun Apr 17 04:34:17 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Creating public game [gg] started by [[[-HaCKer-]]].
+[Sun Apr 17 04:34:18 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 04:34:22 2016] [GAME: gg] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:34:37 2016] [GAME: gg] [Local]: Please start game within 1 mins. 40 sec.
+[Sun Apr 17 04:34:57 2016] [GAME: gg] [Local]: Please start game within 1 mins. 20 sec.
+[Sun Apr 17 04:35:17 2016] [GAME: gg] [Local]: Please start game within 1 mins. 0 sec.
+[Sun Apr 17 04:35:38 2016] [GHOST] starting up
+[Sun Apr 17 04:35:38 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 04:35:38 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 04:35:38 2016] [GHOST] starting winsock
+[Sun Apr 17 04:35:38 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 04:35:38 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 04:35:38 2016] [GHOST] opening primary database
+[Sun Apr 17 04:35:38 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:35:38 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:35:38 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:35:38 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 04:35:38 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:35:38 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:35:38 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:35:38 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 04:35:38 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 04:35:38 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 04:35:38 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 04:35:38 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 04:35:38 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 04:35:38 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 04:35:38 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 04:35:38 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 04:35:38 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 04:35:38 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 04:35:38 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 04:35:39 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 04:35:39 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 04:35:39 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 04:35:39 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 04:35:39 2016] [MAP] overriding slots
+[Sun Apr 17 04:35:39 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 04:35:39 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 04:35:39 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 04:35:39 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 04:35:40 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 04:35:42 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 04:35:43 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 04:35:44 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 04:35:45 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 04:35:46 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 04:35:47 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 04:35:49 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 04:35:50 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 04:35:51 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 04:35:51 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 04:35:51 2016] [GHOST] creating admin game
+[Sun Apr 17 04:35:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:35:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:35:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] attempting to bind to all available addresses
+[Sun Apr 17 04:35:51 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] listening on port 6113
+[Sun Apr 17 04:35:51 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 04:35:51 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 04:37:42 2016] [GHOST] starting up
+[Sun Apr 17 04:37:42 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 04:37:42 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 04:37:42 2016] [GHOST] starting winsock
+[Sun Apr 17 04:37:42 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 04:37:42 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 04:37:42 2016] [GHOST] opening primary database
+[Sun Apr 17 04:37:42 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:37:42 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:37:42 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:37:42 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 04:37:42 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:37:42 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:37:42 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:37:42 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 04:37:42 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 04:37:42 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 04:37:42 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 04:37:43 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 04:37:43 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 04:37:43 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 04:37:43 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 04:37:43 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 04:37:43 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 04:37:43 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 04:37:43 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 04:37:43 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 04:37:43 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 04:37:43 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 04:37:43 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 04:37:43 2016] [MAP] overriding slots
+[Sun Apr 17 04:37:43 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 04:37:43 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 04:37:43 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 04:37:43 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 04:37:44 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 04:37:46 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 04:37:47 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 04:37:49 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 04:37:50 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 04:37:53 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 04:37:58 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 04:38:03 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 04:38:04 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 04:38:06 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 04:38:06 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 04:38:06 2016] [GHOST] creating admin game
+[Sun Apr 17 04:38:06 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:38:06 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:38:06 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] attempting to bind to all available addresses
+[Sun Apr 17 04:38:06 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] listening on port 6113
+[Sun Apr 17 04:38:06 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 04:38:06 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 04:38:11 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:38:20 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !password 1234
+[Sun Apr 17 04:38:20 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [password] with payload [1234]
+[Sun Apr 17 04:38:20 2016] [ADMINGAME] user [[[-HaCKer-]]] logged in
+[Sun Apr 17 04:38:23 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !pub pp
+[Sun Apr 17 04:38:23 2016] [ADMINGAME] admin [[[-HaCKer-]]] sent command [pub] with payload [pp]
+[Sun Apr 17 04:38:23 2016] [GHOST] creating game [pp]
+[Sun Apr 17 04:38:23 2016] [GAME: pp] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:38:23 2016] [GAME: pp] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:38:23 2016] [GAME: pp] attempting to bind to all available addresses
+[Sun Apr 17 04:38:23 2016] [GAME: pp] listening on port 6112
+[Sun Apr 17 04:38:23 2016] [STATSDOTA] using dota stats
+[Sun Apr 17 04:38:23 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Creating public game [pp] started by [[[-HaCKer-]]].
+[Sun Apr 17 04:38:24 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 04:38:28 2016] [GAME: pp] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:38:43 2016] [GAME: pp] [Local]: Please start game within [1] mins [40] seconds.
+[Sun Apr 17 04:39:03 2016] [GAME: pp] [Local]: Please start game within [1] mins [20] seconds.
+[Sun Apr 17 04:39:23 2016] [GAME: pp] [Local]: Please start game within [1] mins [0] seconds.
+[Sun Apr 17 04:39:43 2016] [GAME: pp] [Local]: Please start game within [0] mins [40] seconds.
+[Sun Apr 17 04:40:03 2016] [GAME: pp] [Local]: Please start game within [0] mins [20] seconds.
+[Sun Apr 17 04:40:23 2016] [GAME: pp] [Local]: Time out closed Lobby
+[Sun Apr 17 04:40:23 2016] [GAME: pp] [Local]: Please start game within [0] mins [0] seconds.
+[Sun Apr 17 04:40:23 2016] [GHOST] deleting current game [pp]
+[Sun Apr 17 04:40:59 2016] [GHOST] starting up
+[Sun Apr 17 04:40:59 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 04:40:59 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 04:40:59 2016] [GHOST] starting winsock
+[Sun Apr 17 04:40:59 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 04:40:59 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 04:40:59 2016] [GHOST] opening primary database
+[Sun Apr 17 04:40:59 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:40:59 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:40:59 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:40:59 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 04:40:59 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:40:59 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:40:59 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:40:59 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 04:40:59 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 04:40:59 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 04:40:59 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 04:40:59 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 04:40:59 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 04:40:59 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 04:40:59 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 04:40:59 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 04:40:59 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 04:40:59 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 04:40:59 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 04:40:59 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 04:40:59 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 04:40:59 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 04:40:59 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 04:40:59 2016] [MAP] overriding slots
+[Sun Apr 17 04:40:59 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 04:40:59 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 04:40:59 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 04:40:59 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 04:41:00 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 04:41:01 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 04:41:02 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 04:41:03 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 04:41:04 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 04:41:05 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 04:41:07 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 04:41:08 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 04:41:09 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 04:41:10 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 04:41:10 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 04:41:10 2016] [GHOST] creating admin game
+[Sun Apr 17 04:41:10 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:41:10 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:41:10 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] attempting to bind to all available addresses
+[Sun Apr 17 04:41:10 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] listening on port 6113
+[Sun Apr 17 04:41:10 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 04:41:10 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 04:41:21 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:41:26 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !password 1234
+[Sun Apr 17 04:41:26 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [password] with payload [1234]
+[Sun Apr 17 04:41:26 2016] [ADMINGAME] user [[[-HaCKer-]]] logged in
+[Sun Apr 17 04:41:29 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !pub sdf
+[Sun Apr 17 04:41:29 2016] [ADMINGAME] admin [[[-HaCKer-]]] sent command [pub] with payload [sdf]
+[Sun Apr 17 04:41:29 2016] [GHOST] creating game [sdf]
+[Sun Apr 17 04:41:29 2016] [GAME: sdf] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:41:29 2016] [GAME: sdf] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:41:29 2016] [GAME: sdf] attempting to bind to all available addresses
+[Sun Apr 17 04:41:29 2016] [GAME: sdf] listening on port 6112
+[Sun Apr 17 04:41:29 2016] [STATSDOTA] using dota stats
+[Sun Apr 17 04:41:29 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Creating public game [sdf] started by [[[-HaCKer-]]].
+[Sun Apr 17 04:41:30 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 04:41:34 2016] [GAME: sdf] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:41:49 2016] [GAME: sdf] [Local]: Please start game within 1 mins 40 seconds.
+[Sun Apr 17 04:42:09 2016] [GAME: sdf] [Local]: Please start game within 1 mins 20 seconds.
+[Sun Apr 17 04:42:29 2016] [GAME: sdf] [Local]: Please start game within 1 mins 0 seconds.
+[Sun Apr 17 04:42:49 2016] [GAME: sdf] [Local]: Please start game within 0 mins 40 seconds.
+[Sun Apr 17 04:43:09 2016] [GAME: sdf] [Local]: Please start game within 0 mins 20 seconds.
+[Sun Apr 17 04:43:27 2016] [!!!] caught signal 2, exiting nicely
+[Sun Apr 17 04:43:27 2016] [GHOST] deleting current game in preparation for exiting nicely
+[Sun Apr 17 04:43:27 2016] [GHOST] deleting admin game in preparation for exiting nicely
+[Sun Apr 17 04:43:27 2016] [GHOST] all games finished, waiting 60 seconds for threads to finish
+[Sun Apr 17 04:43:27 2016] [GHOST] there are 0 threads in progress
+[Sun Apr 17 04:43:27 2016] [GHOST] all threads finished, exiting nicely
+[Sun Apr 17 04:43:27 2016] [GHOST] shutting down
+[Sun Apr 17 04:43:27 2016] [SQLITE3] closing database [ghost.dbs]
+[Sun Apr 17 04:43:27 2016] [SQLITE3] closing database [ghost.dbs]
+[Sun Apr 17 04:43:27 2016] [GHOST] shutting down winsock
+[Sun Apr 17 04:43:40 2016] [GHOST] starting up
+[Sun Apr 17 04:43:40 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 04:43:40 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 04:43:40 2016] [GHOST] starting winsock
+[Sun Apr 17 04:43:40 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 04:43:40 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 04:43:40 2016] [GHOST] opening primary database
+[Sun Apr 17 04:43:40 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:43:40 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:43:40 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:43:40 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 04:43:40 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:43:40 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:43:40 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:43:40 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 04:43:40 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 04:43:40 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 04:43:40 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 04:43:40 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 04:43:40 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 04:43:40 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 04:43:40 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 04:43:40 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 04:43:40 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 04:43:40 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 04:43:40 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 04:43:40 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 04:43:40 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 04:43:40 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 04:43:40 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 04:43:40 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 04:43:41 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 04:43:41 2016] [MAP] overriding slots
+[Sun Apr 17 04:43:41 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 04:43:41 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 04:43:41 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 04:43:41 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 04:43:42 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 04:43:42 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 04:43:43 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 04:43:44 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 04:43:45 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 04:43:46 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 04:43:47 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 04:43:48 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 04:43:49 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 04:43:50 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 04:43:50 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 04:43:50 2016] [GHOST] creating admin game
+[Sun Apr 17 04:43:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:43:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:43:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] attempting to bind to all available addresses
+[Sun Apr 17 04:43:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] listening on port 6113
+[Sun Apr 17 04:43:50 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 04:43:50 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 04:43:57 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:44:03 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !password 1234
+[Sun Apr 17 04:44:03 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [password] with payload [1234]
+[Sun Apr 17 04:44:03 2016] [ADMINGAME] user [[[-HaCKer-]]] logged in
+[Sun Apr 17 04:44:05 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !pub pp
+[Sun Apr 17 04:44:05 2016] [ADMINGAME] admin [[[-HaCKer-]]] sent command [pub] with payload [pp]
+[Sun Apr 17 04:44:05 2016] [GHOST] creating game [pp]
+[Sun Apr 17 04:44:05 2016] [GAME: pp] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:44:05 2016] [GAME: pp] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:44:05 2016] [GAME: pp] attempting to bind to all available addresses
+[Sun Apr 17 04:44:05 2016] [GAME: pp] listening on port 6112
+[Sun Apr 17 04:44:05 2016] [STATSDOTA] using dota stats
+[Sun Apr 17 04:44:05 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Creating public game [pp] started by [[[-HaCKer-]]].
+[Sun Apr 17 04:44:08 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 04:44:11 2016] [GAME: pp] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:44:25 2016] [GAME: pp] [Local]: Please start game within 1 mins 40 seconds.
+[Sun Apr 17 04:44:45 2016] [GAME: pp] [Local]: Please start game within 1 mins 20 seconds.
+[Sun Apr 17 04:45:05 2016] [GAME: pp] [Local]: Please start game within 0 mins 60 seconds.
+[Sun Apr 17 04:45:25 2016] [GAME: pp] [Local]: Please start game within 0 mins 40 seconds.
+[Sun Apr 17 04:45:45 2016] [GAME: pp] [Local]: Please start game within 0 mins 20 seconds.
+[Sun Apr 17 04:46:05 2016] [GAME: pp] [Local]: Time out closed Lobby
+[Sun Apr 17 04:46:05 2016] [GAME: pp] [Local]: Please start game within 4294967295 mins 60 seconds.
+[Sun Apr 17 04:46:05 2016] [GHOST] deleting current game [pp]
+[Sun Apr 17 04:46:24 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:46:34 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !password 1234
+[Sun Apr 17 04:46:34 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [password] with payload [1234]
+[Sun Apr 17 04:46:34 2016] [ADMINGAME] user [[[-HaCKer-]]] logged in
+[Sun Apr 17 04:46:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !pub fff
+[Sun Apr 17 04:46:49 2016] [ADMINGAME] admin [[[-HaCKer-]]] sent command [pub] with payload [fff]
+[Sun Apr 17 04:46:49 2016] [GHOST] creating game [fff]
+[Sun Apr 17 04:46:50 2016] [GAME: fff] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:46:50 2016] [GAME: fff] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:46:50 2016] [GAME: fff] attempting to bind to all available addresses
+[Sun Apr 17 04:46:50 2016] [GAME: fff] listening on port 6112
+[Sun Apr 17 04:46:50 2016] [STATSDOTA] using dota stats
+[Sun Apr 17 04:46:50 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Creating public game [fff] started by [[[-HaCKer-]]].
+[Sun Apr 17 04:46:53 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 04:46:59 2016] [GAME: fff] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:47:10 2016] [GAME: fff] [Local]: Please start game within 1 mins 40 seconds.
+[Sun Apr 17 04:47:30 2016] [GAME: fff] [Local]: Please start game within 1 mins 20 seconds.
+[Sun Apr 17 04:47:50 2016] [GAME: fff] [Local]: Please start game within 0 mins 60 seconds.
+[Sun Apr 17 04:48:10 2016] [GAME: fff] [Local]: Please start game within 0 mins 40 seconds.
+[Sun Apr 17 04:48:30 2016] [GAME: fff] [Local]: Please start game within 0 mins 20 seconds.
+[Sun Apr 17 04:48:55 2016] [GHOST] starting up
+[Sun Apr 17 04:48:55 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 04:48:55 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 04:48:55 2016] [GHOST] starting winsock
+[Sun Apr 17 04:48:55 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 04:48:55 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 04:48:55 2016] [GHOST] opening primary database
+[Sun Apr 17 04:48:55 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:48:55 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:48:55 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:48:55 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 04:48:55 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 04:48:55 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 04:48:55 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 04:48:55 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 04:48:55 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 04:48:55 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 04:48:55 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 04:48:55 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 04:48:55 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 04:48:55 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 04:48:55 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 04:48:55 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 04:48:55 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 04:48:55 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 04:48:55 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 04:48:55 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 04:48:55 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 04:48:55 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 04:48:55 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 04:48:55 2016] [MAP] overriding slots
+[Sun Apr 17 04:48:55 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 04:48:55 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 04:48:55 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 04:48:55 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 04:48:56 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 04:48:57 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 04:48:58 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 04:48:59 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 04:49:00 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 04:49:01 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 04:49:02 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 04:49:03 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 04:49:04 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 04:49:05 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 04:49:05 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 04:49:05 2016] [GHOST] creating admin game
+[Sun Apr 17 04:49:05 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:49:05 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:49:05 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] attempting to bind to all available addresses
+[Sun Apr 17 04:49:05 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] listening on port 6113
+[Sun Apr 17 04:49:05 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 04:49:05 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 04:49:11 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:49:17 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !password 1234
+[Sun Apr 17 04:49:17 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [password] with payload [1234]
+[Sun Apr 17 04:49:17 2016] [ADMINGAME] user [[[-HaCKer-]]] logged in
+[Sun Apr 17 04:49:19 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !pub d
+[Sun Apr 17 04:49:19 2016] [ADMINGAME] admin [[[-HaCKer-]]] sent command [pub] with payload [d]
+[Sun Apr 17 04:49:19 2016] [GHOST] creating game [d]
+[Sun Apr 17 04:49:19 2016] [GAME: d] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 04:49:19 2016] [GAME: d] loaded 635 lines from IP blacklist file
+[Sun Apr 17 04:49:19 2016] [GAME: d] attempting to bind to all available addresses
+[Sun Apr 17 04:49:19 2016] [GAME: d] listening on port 6112
+[Sun Apr 17 04:49:19 2016] [STATSDOTA] using dota stats
+[Sun Apr 17 04:49:19 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Creating public game [d] started by [[[-HaCKer-]]].
+[Sun Apr 17 04:49:20 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 04:49:24 2016] [GAME: d] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 04:49:39 2016] [GAME: d] [Local]: Please start game within 1 mins 40 seconds.
+[Sun Apr 17 04:49:59 2016] [GAME: d] [Local]: Please start game within 1 mins 20 seconds.
+[Sun Apr 17 04:50:19 2016] [GAME: d] [Local]: Please start game within 1 mins 0 seconds.
+[Sun Apr 17 04:50:39 2016] [GAME: d] [Local]: Please start game within 0 mins 40 seconds.
+[Sun Apr 17 04:50:59 2016] [GAME: d] [Local]: Please start game within 0 mins 20 seconds.
+[Sun Apr 17 04:51:19 2016] [GAME: d] [Local]: Time out closed Lobby
+[Sun Apr 17 04:51:19 2016] [GAME: d] [Local]: Please start game within 0 mins 0 seconds.
+[Sun Apr 17 04:51:19 2016] [GHOST] deleting current game [d]
+[Sun Apr 17 05:01:38 2016] [GHOST] starting up
+[Sun Apr 17 05:01:38 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 05:01:38 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 05:01:38 2016] [GHOST] starting winsock
+[Sun Apr 17 05:01:38 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 05:01:38 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 05:01:38 2016] [GHOST] opening primary database
+[Sun Apr 17 05:01:38 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 05:01:38 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 05:01:38 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 05:01:38 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 05:01:38 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 05:01:38 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 05:01:38 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 05:01:38 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 05:01:38 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 05:01:38 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 05:01:38 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 05:01:38 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 05:01:38 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 05:01:38 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 05:01:38 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 05:01:38 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 05:01:39 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 05:01:39 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 05:01:39 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 05:01:39 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 05:01:39 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 05:01:39 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 05:01:39 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 05:01:39 2016] [MAP] overriding slots
+[Sun Apr 17 05:01:39 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 05:01:39 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 05:01:39 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 05:01:39 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 05:01:40 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 05:01:41 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 05:01:42 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 05:01:43 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 05:01:44 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 05:01:45 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 05:01:46 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 05:01:47 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 05:01:48 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 05:01:49 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 05:01:49 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 05:01:49 2016] [GHOST] creating admin game
+[Sun Apr 17 05:01:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 05:01:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loaded 635 lines from IP blacklist file
+[Sun Apr 17 05:01:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] attempting to bind to all available addresses
+[Sun Apr 17 05:01:49 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] listening on port 6113
+[Sun Apr 17 05:01:49 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 05:01:49 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 05:01:54 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 05:02:01 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !password 1234
+[Sun Apr 17 05:02:01 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [password] with payload [1234]
+[Sun Apr 17 05:02:01 2016] [ADMINGAME] user [[[-HaCKer-]]] logged in
+[Sun Apr 17 05:02:04 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !pub ll
+[Sun Apr 17 05:02:04 2016] [ADMINGAME] admin [[[-HaCKer-]]] sent command [pub] with payload [ll]
+[Sun Apr 17 05:02:04 2016] [GHOST] creating game [ll]
+[Sun Apr 17 05:02:04 2016] [GAME: ll] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 05:02:04 2016] [GAME: ll] loaded 635 lines from IP blacklist file
+[Sun Apr 17 05:02:04 2016] [GAME: ll] attempting to bind to all available addresses
+[Sun Apr 17 05:02:04 2016] [GAME: ll] listening on port 6112
+[Sun Apr 17 05:02:04 2016] [STATSDOTA] using dota stats
+[Sun Apr 17 05:02:04 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Creating public game [ll] started by [[[-HaCKer-]]].
+[Sun Apr 17 05:02:07 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 05:02:09 2016] [GAME: ll] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 05:02:24 2016] [GAME: ll] [Local]: Please start game within 1 mins 40 seconds.
+[Sun Apr 17 05:02:44 2016] [GAME: ll] [Local]: Please start game within 1 mins 20 seconds.
+[Sun Apr 17 05:03:04 2016] [GAME: ll] [Local]: Please start game within 1 mins 0 seconds.
+[Sun Apr 17 05:03:24 2016] [GAME: ll] [Local]: Please start game within 0 mins 40 seconds.
+[Sun Apr 17 05:03:44 2016] [GAME: ll] [Local]: Please start game within 0 mins 20 seconds.
+[Sun Apr 17 05:04:12 2016] [GHOST] starting up
+[Sun Apr 17 05:04:12 2016] [GHOST] using log method 1, logging is enabled and [ghost.log] will not be locked
+[Sun Apr 17 05:04:12 2016] [GHOST] using Windows timer with resolution 1 milliseconds
+[Sun Apr 17 05:04:12 2016] [GHOST] starting winsock
+[Sun Apr 17 05:04:12 2016] [GHOST] setting process priority to "above normal"
+[Sun Apr 17 05:04:12 2016] [UDPSOCKET] using default broadcast target
+[Sun Apr 17 05:04:12 2016] [GHOST] opening primary database
+[Sun Apr 17 05:04:12 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 05:04:12 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 05:04:12 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 05:04:12 2016] [GHOST] opening secondary (local) database
+[Sun Apr 17 05:04:12 2016] [SQLITE3] version 3.6.16
+[Sun Apr 17 05:04:12 2016] [SQLITE3] opening database [ghost.dbs]
+[Sun Apr 17 05:04:12 2016] [SQLITE3] found schema number [8]
+[Sun Apr 17 05:04:12 2016] [GHOST] attempting to find local IP addresses
+[Sun Apr 17 05:04:12 2016] [GHOST] local IP address #1 is [172.31.0.69]
+[Sun Apr 17 05:04:12 2016] [GHOST] local IP address #2 is [192.168.73.1]
+[Sun Apr 17 05:04:12 2016] [GHOST] local IP address #3 is [192.168.153.1]
+[Sun Apr 17 05:04:12 2016] [GHOST] local IP address #4 is [127.0.0.1]
+[Sun Apr 17 05:04:12 2016] [GHOST] acting as Warcraft III: The Frozen Throne
+[Sun Apr 17 05:04:12 2016] [CONFIG] loading file [language.cfg]
+[Sun Apr 17 05:04:12 2016] [GHOST] missing bnet_username, skipping this battle.net connection
+[Sun Apr 17 05:04:12 2016] [GHOST] warning - no battle.net connections found in config file
+[Sun Apr 17 05:04:12 2016] [GHOST] loading MPQ file [D:\Games\[www.mpc-g.com]Wcft3ThFrzTrn1.26\War3Patch.mpq]
+[Sun Apr 17 05:04:12 2016] [GHOST] extracting Scripts\common.j from MPQ file to [mapcfgs\common.j]
+[Sun Apr 17 05:04:12 2016] [GHOST] extracting Scripts\blizzard.j from MPQ file to [mapcfgs\blizzard.j]
+[Sun Apr 17 05:04:12 2016] [GHOST] adding ".cfg" to default map -> new default is [DotA v6.81b AI.cfg]
+[Sun Apr 17 05:04:12 2016] [CONFIG] loading file [mapcfgs\DotA v6.81b AI.cfg]
+[Sun Apr 17 05:04:12 2016] [MAP] loading MPQ file [maps\DotA v6.81b AI 1.2.0.4181 Eng.w3x]
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_size = 21 157 111 0
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_info = 13 193 185 32
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_crc = 66 215 29 218
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_sha1 = 255 251 79 234 57 165 19 255 255 216 178 253 77 123 33 174 169 117 84 149
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_options = 96
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_width = 118 0
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_height = 120 0
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_numplayers = 10
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_numteams = 2
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_slot1 = 0 255 0 0 0 1 4 1 100
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_slot2 = 0 255 0 0 0 2 4 1 100
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_slot3 = 0 255 0 0 0 3 4 1 100
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_slot4 = 0 255 0 0 0 4 4 1 100
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_slot5 = 0 255 0 0 0 5 4 1 100
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_slot6 = 0 255 0 0 1 7 8 1 100
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_slot7 = 0 255 0 0 1 8 8 1 100
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_slot8 = 0 255 0 0 1 9 8 1 100
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_slot9 = 0 255 0 0 1 10 8 1 100
+[Sun Apr 17 05:04:12 2016] [MAP] calculated map_slot10 = 0 255 0 0 1 11 8 1 100
+[Sun Apr 17 05:04:12 2016] [MAP] overriding slots
+[Sun Apr 17 05:04:12 2016] [MAP] adding 0 observer slots
+[Sun Apr 17 05:04:12 2016] [GHOST] using hardcoded admin game map
+[Sun Apr 17 05:04:12 2016] [MAP] using hardcoded Emerald Gardens map data for Warcraft 3 version 1.24 & 1.24b
+[Sun Apr 17 05:04:12 2016] [GHOST] started loading [ip-to-country.csv]
+[Sun Apr 17 05:04:13 2016] [GHOST] iptocountry data: 10% loaded
+[Sun Apr 17 05:04:14 2016] [GHOST] iptocountry data: 20% loaded
+[Sun Apr 17 05:04:15 2016] [GHOST] iptocountry data: 30% loaded
+[Sun Apr 17 05:04:16 2016] [GHOST] iptocountry data: 40% loaded
+[Sun Apr 17 05:04:17 2016] [GHOST] iptocountry data: 50% loaded
+[Sun Apr 17 05:04:18 2016] [GHOST] iptocountry data: 60% loaded
+[Sun Apr 17 05:04:19 2016] [GHOST] iptocountry data: 70% loaded
+[Sun Apr 17 05:04:20 2016] [GHOST] iptocountry data: 80% loaded
+[Sun Apr 17 05:04:21 2016] [GHOST] iptocountry data: 90% loaded
+[Sun Apr 17 05:04:22 2016] [GHOST] iptocountry data: 100% loaded
+[Sun Apr 17 05:04:22 2016] [GHOST] finished loading [ip-to-country.csv]
+[Sun Apr 17 05:04:22 2016] [GHOST] creating admin game
+[Sun Apr 17 05:04:22 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 05:04:22 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] loaded 635 lines from IP blacklist file
+[Sun Apr 17 05:04:22 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] attempting to bind to all available addresses
+[Sun Apr 17 05:04:22 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] listening on port 6113
+[Sun Apr 17 05:04:22 2016] [GHOST] GHost++ Version 17.0 (without MySQL support)
+[Sun Apr 17 05:04:22 2016] [GHOST] listening for GProxy++ reconnects on port 6114
+[Sun Apr 17 05:04:34 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 05:05:35 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !ping
+[Sun Apr 17 05:05:35 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [ping] with payload []
+[Sun Apr 17 05:05:39 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !password 1234
+[Sun Apr 17 05:05:39 2016] [ADMINGAME] user [[[-HaCKer-]]] sent command [password] with payload [1234]
+[Sun Apr 17 05:05:39 2016] [ADMINGAME] user [[[-HaCKer-]]] logged in
+[Sun Apr 17 05:05:42 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Lobby] [[[-HaCKer-]]]: !pub gg
+[Sun Apr 17 05:05:42 2016] [ADMINGAME] admin [[[-HaCKer-]]] sent command [pub] with payload [gg]
+[Sun Apr 17 05:05:42 2016] [GHOST] creating game [gg]
+[Sun Apr 17 05:05:42 2016] [GAME: gg] loading IP blacklist file [ipblacklist.txt]
+[Sun Apr 17 05:05:42 2016] [GAME: gg] loaded 635 lines from IP blacklist file
+[Sun Apr 17 05:05:42 2016] [GAME: gg] attempting to bind to all available addresses
+[Sun Apr 17 05:05:42 2016] [GAME: gg] listening on port 6112
+[Sun Apr 17 05:05:42 2016] [STATSDOTA] using dota stats
+[Sun Apr 17 05:05:42 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] [Local]: Creating public game [gg] started by [[[-HaCKer-]]].
+[Sun Apr 17 05:05:43 2016] [GAME: |cFF35FFFBGHost++ Server By Tae] deleting player [[[-HaCKer-]]]: has left the game voluntarily
+[Sun Apr 17 05:05:48 2016] [GAME: gg] player [[[-HaCKer-]]|192.168.153.1] joined the game
+[Sun Apr 17 05:06:02 2016] [GAME: gg] [Local]: Please start game within 1 mins 40 seconds.
+[Sun Apr 17 05:06:22 2016] [GAME: gg] [Local]: Please start game within 1 mins 20 seconds.
+[Sun Apr 17 05:06:42 2016] [GAME: gg] [Local]: Please start game within 1 mins 0 seconds.
+[Sun Apr 17 05:07:02 2016] [GAME: gg] [Local]: Please start game within 0 mins 40 seconds.
+[Sun Apr 17 05:07:22 2016] [GAME: gg] [Local]: Please start game within 0 mins 20 seconds.
+[Sun Apr 17 05:07:42 2016] [GAME: gg] [Local]: Time out closed Lobby
+[Sun Apr 17 05:07:42 2016] [GAME: gg] [Local]: Please start game within 0 mins 0 seconds.
+[Sun Apr 17 05:07:42 2016] [GHOST] deleting current game [gg]
