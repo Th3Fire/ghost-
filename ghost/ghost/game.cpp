@@ -1708,7 +1708,7 @@ bool CGame :: EventPlayerBotCommand( CGamePlayer *player, string command, string
 	// !voteend
 	//
 
-	if(Command == "voteend" && m_GameLoaded)
+	if(Command == "voteend" || Command == "regame" && m_GameLoaded)
 	{
 		player->SetEndVote( true );
 		uint32_t VotesNeeded = GetNumHumanPlayers( );
@@ -1773,7 +1773,132 @@ bool CGame :: EventPlayerBotCommand( CGamePlayer *player, string command, string
 
 		}
 
-	
+	//
+	// !gg
+	//
+
+	if( Command == "gg")
+	{
+			//CGamePlayer *LastMatch = NULL;
+			//unsigned char Team = m_Slots[SID].GetTeam( );
+			//char PlayerTeam = m_Slots[GetSIDFromPID(player->GetPID())].GetTeam( );
+			//string TeamString = PlayerTeam == 1 ? "Sentinel" : "Scourge";
+
+			//SendAllChat("["+ TeamString + "] Player " + User + "start vote give up type !gg for accept" );
+		player->SetVoteGGCheck( true );
+		string VoteGGPlayerSe;
+		string VoteGGPlayerSc;
+		uint32_t VoteT1 = 0;
+		uint32_t VoteT2 = 0;
+		uint32_t VotesNeededT1 = 0;
+		uint32_t VotesNeededT2 = 0;
+		
+		char PlayerTeam = m_Slots[GetSIDFromPID(player->GetPID())].GetTeam( );
+		string TeamString = PlayerTeam == 0 ? "Sentinel" : "Scourge";
+
+		if( !m_VoteGG )
+		{
+			//CGamePlayer *LastMatch = NULL;
+			
+			if(PlayerTeam == 0) // Sentinel
+			{
+                    for( vector<CGamePlayer *> :: iterator i = m_Players.begin( ); i != m_Players.end( ); ++i )
+                    {
+                        //if(m_Slots[GetSIDFromPID((*i)->GetPID())].GetTeam( ) == 0)
+                            
+							if( (*i)->GetVoteGGCheck( ) )
+							{
+								VoteT1++;
+								SendAllChat("you are votes");
+								if( !VoteGGPlayerSe.empty( ) )
+									VoteGGPlayerSe+=", "+(*i)->GetName();
+                				else
+									VoteGGPlayerSe=(*i)->GetName();
+							}	
+							
+							//SendChat(player , "you are votes");
+							SendChat(player , "Votes >> " + UTIL_ToString(VoteT1));
+
+                    }
+					
+			}else if(PlayerTeam == 1) //Scourge
+			{
+					for( vector<CGamePlayer *> :: iterator i = m_Players.begin( ); i != m_Players.end( ); ++i )
+                    {
+                        //if(m_Slots[GetSIDFromPID((*i)->GetPID())].GetTeam( ) == 1)
+                         
+							if( (*i)->GetVoteGGCheck( ) )
+							{
+								VoteT2++;
+								SendAllChat("you are votes");
+								if( !VoteGGPlayerSc.empty( ) )
+									VoteGGPlayerSc+=", "+(*i)->GetName();
+                				else
+									VoteGGPlayerSc=(*i)->GetName();
+							}	
+							
+							SendChat(player , "Votes >> " +UTIL_ToString(VoteT2) );
+                    }
+			}
+			SendAllChat(m_GHost->m_Language->PlayerVoteGG(TeamString,User));
+			//SendAllChat("["+TeamString + "] Player " + User + " start vote give up type !gg for accept" );
+			m_VoteGG = true;
+			m_VoteGGTime = GetTime( );
+		}else if( m_VoteGG )
+		{
+			if( PlayerTeam == 0) //Sentinel
+			{
+				for( vector<CGamePlayer *> :: iterator i = m_Players.begin( ); i != m_Players.end( ); ++i )
+                    {
+							if(m_Slots[GetSIDFromPID((*i)->GetPID())].GetTeam( ) == 0)
+							{
+								VotesNeededT1 += 1;
+								SendAllChat("All player");
+							}
+							if( (*i)->GetVoteGGCheck( ) )
+							{
+								VoteT1++;
+								SendAllChat("you are votes");
+								if( !VoteGGPlayerSe.empty( ) )
+									VoteGGPlayerSe+=", "+(*i)->GetName();
+                				else
+									VoteGGPlayerSe=(*i)->GetName();
+							}		
+                    }
+				// show who votes
+				SendChat( player, VoteGGPlayerSe + " votes.");
+				
+				SendChat(player , "votes >> " + UTIL_ToString(VoteT1) +  " total >>" + UTIL_ToString(VotesNeededT2));
+
+			}else if( PlayerTeam == 1 ) // Scourge
+			{
+				for( vector<CGamePlayer *> :: iterator i = m_Players.begin( ); i != m_Players.end( ); ++i )
+                    {
+                        //if(m_Slots[GetSIDFromPID((*i)->GetPID())].GetTeam( ) == 0)
+                           
+							if(m_Slots[GetSIDFromPID((*i)->GetPID())].GetTeam( ) == 1)
+							{
+								VotesNeededT2 += 1;
+								SendAllChat("All player");
+							}
+							if( (*i)->GetVoteGGCheck( ) )
+							{
+								 ++VoteT2;
+								 SendAllChat("you are votes");
+								if( !VoteGGPlayerSc.empty( ) )
+									VoteGGPlayerSc+=", "+(*i)->GetName();
+                				else
+									VoteGGPlayerSc=(*i)->GetName();
+							} 
+                    }
+				// show who votes
+				SendChat( player, VoteGGPlayerSc + " votes.");
+				SendChat(player , "votes >> " + UTIL_ToString(VoteT2) + " total >>" + UTIL_ToString(VotesNeededT2));
+				
+			}
+		}
+
+	}
 
 
 	//

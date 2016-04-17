@@ -126,10 +126,14 @@ protected:
 	bool m_LocalAdminMessages;						// if local admin messages should be relayed or not
 	bool m_VoteEndCheck;							//code by wuttinunt
 	uint32_t m_LastProcessedTicks;					//code by wuttinunt afk
+	bool m_VoteGG;
+	uint32_t m_VoteGGTime;
+	uint32_t m_GameLoadedTime;
 	uint32_t m_TimeGetLastCR;
 	uint32_t m_a;
 	uint32_t m_b;
 	bool m_checkLimit;
+	
 
 public:
 	CBaseGame( CGHost *nGHost, CMap *nMap, CSaveGame *nSaveGame, uint16_t nHostPort, unsigned char nGameState, string nGameName, string nOwnerName, string nCreatorName, string nCreatorServer );

@@ -1553,3 +1553,22 @@ string CLanguage :: TimeCountDownLimitLobby( string mins, string secs )
 	UTIL_Replace( Out, "$SECS$", secs );
 	return Out;
 }
+string CLanguage :: HasLeftVoluntarilyInfo( )
+{
+	return m_CFG->GetString( "lang_0224", "lang_0224" );
+	
+}
+
+string CLanguage :: VoteGGExpire( )
+{
+	return m_CFG->GetString( "lang_0225", "lang_0225" );
+	
+}
+
+string CLanguage :: PlayerVoteGG( string team, string name )
+{
+	string Out = m_CFG->GetString( "lang_0226", "lang_0226" );
+	UTIL_Replace( Out, "$TEAM$", team );
+	UTIL_Replace( Out, "$NAME$", name );
+	return Out;
+}
