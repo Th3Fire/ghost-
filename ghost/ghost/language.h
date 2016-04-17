@@ -116,6 +116,7 @@ public:
 	string HasLostConnectionSocketError( string error );
 	string HasLostConnectionClosedByRemoteHost( );
 	string HasLeftVoluntarily( );
+	string HasLeftVoluntarilyInfo( );
 	string EndingGame( string description );
 	string HasLostConnectionTimedOut( );
 	string GlobalChatMuted( );
@@ -257,6 +258,8 @@ public:
 	string UserStartVoteEnd( string name );
 	string WarningPlayerAFK( string name );
 	string TimeCountDownLimitLobby( string mins , string secs );
+	string VoteGGExpire( );
+	string PlayerVoteGG( string team, string name );
 };
 
 #endif

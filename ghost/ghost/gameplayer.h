@@ -120,6 +120,7 @@ private:
 	bool m_DropVote;							// if the player voted to drop the laggers or not (on the lag screen)
 	bool m_KickVote;							// if the player voted to kick a player or not
 	bool m_EndVote;								// code by wuttinunt
+	bool m_VoteGGCheck;
 	bool m_Muted;								// if the player is muted or not
 	bool m_LeftMessageSent;						// if the playerleave message has been sent or not
 	bool m_GProxy;								// if the player is using GProxy++
@@ -128,6 +129,8 @@ private:
 	uint32_t m_GProxyReconnectKey;
 	uint32_t m_LastGProxyAckTime;
 	uint32_t m_TimeActive;						// code by wuttinunt
+	bool m_AFKMarked;
+
 
 public:
 	CGamePlayer( CGameProtocol *nProtocol, CBaseGame *nGame, CTCPSocket *nSocket, unsigned char nPID, string nJoinedRealm, string nName, BYTEARRAY nInternalIP, bool nReserved );
@@ -171,7 +174,10 @@ public:
 	bool GetDropVote( )							{ return m_DropVote; }
 	bool GetKickVote( )							{ return m_KickVote; }
 	bool GetEndVote( )							{ return m_EndVote; } // code by wuttinunt
+	bool GetVoteGGCheck( )						{ return m_VoteGGCheck; } // code by wuttinunt
 	uint32_t GetTimeActive( )					{ return m_TimeActive; } // code by wuttinunt
+	bool GetAFKMarked( )						{ return m_AFKMarked; }
+
 
 	bool GetMuted( )							{ return m_Muted; }
 	bool GetLeftMessageSent( )					{ return m_LeftMessageSent; }
@@ -204,7 +210,9 @@ public:
 	void SetDropVote( bool nDropVote )												{ m_DropVote = nDropVote; }
 	void SetKickVote( bool nKickVote )												{ m_KickVote = nKickVote; }
 	void SetEndVote( bool nEndVote )												{ m_EndVote = nEndVote; } // code by wuttinunt
+	void SetVoteGGCheck( bool nVoteGGCheck )										{ m_VoteGGCheck = nVoteGGCheck; } // code by wuttinunt
 	void SetTimeActive( uint32_t nTimeActive )										{ m_TimeActive = nTimeActive; } // code by wuttinunt
+	void SetAFKMarked ( bool nAFKMarked)											{ m_AFKMarked = nAFKMarked; }
 	void SetMuted( bool nMuted )													{ m_Muted = nMuted; }
 	void SetLeftMessageSent( bool nLeftMessageSent )								{ m_LeftMessageSent = nLeftMessageSent; }
 	void SetGProxyDisconnectNoticeSent( bool nGProxyDisconnectNoticeSent )			{ m_GProxyDisconnectNoticeSent = nGProxyDisconnectNoticeSent; }

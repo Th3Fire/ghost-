@@ -137,6 +137,10 @@ CBaseGame :: CBaseGame( CGHost *nGHost, CMap *nMap, CSaveGame *nSaveGame, uint16
 	m_a = m_GHost->m_LobbyTimeLimit-1;
 	m_b = 80;
 	m_checkLimit = false;
+	m_VoteGG = false;
+	m_VoteGGTime = 0;
+	
+
 
 	if( m_SaveGame )
 	{
@@ -636,7 +640,28 @@ bool CBaseGame :: Update( void *fd, void *send_fd )
             if( m_GHost->m_AfkDetection )
             {
 				uint32_t TimeActive = (*i)->GetTimeActive();
-				if( TimeActive > 0 && ( (TimeNow - TimeActive ) > ( TimeLimit-60) ) &&  m_Slots[GetSIDFromPID( (*i)->GetPID( ) )].GetTeam() != 12 )
+
+				if( m_GameLoadedTime < 480 && TimeActive > 0 && ( ( (*i)->GetAFKMarked( ) && ( (TimeNow - TimeActive ) > ( TimeLimit - 180 ) ) ) || ( !(*i)->GetAFKMarked( ) && ( (TimeNow - TimeActive ) > ( TimeLimit - 120 ) ) ) ) && m_Slots[GetSIDFromPID( (*i)->GetPID( ) )].GetTeam() != 12 )
+                {
+                    if( (*i)->GetAFKMarked( ) )
+                    {
+                        SendAllChat( "kicked" );
+                        (*i)->SetTimeActive( GetTime( ) );
+                        //(*i)->SetDeleteMe( true );
+                        //(*i)->SetLeftReason( "was kicked by anti-afk" );
+                        //(*i)->SetLeftCode( PLAYERLEAVE_LOST );
+                        continue;
+                    }
+                    else
+                    {
+                        SendAllChat( "warning afk" );
+                        (*i)->SetTimeActive( GetTime( ) );
+                        (*i)->SetAFKMarked( true );
+                    }
+                }
+
+
+				else if( TimeActive > 0 && ( (TimeNow - TimeActive ) > ( TimeLimit-60) ) &&  m_Slots[GetSIDFromPID( (*i)->GetPID( ) )].GetTeam() != 12 )
                 {
                     SendAllChat( m_GHost->m_Language->WarningPlayerAFK( (*i)->GetName() ) );
 					//SendAllChat( m_OHBot->m_Language->KickedUserForBeingAfk( (*i)->GetName() ) );
@@ -644,7 +669,7 @@ bool CBaseGame :: Update( void *fd, void *send_fd )
                     //(*i)->SetDeleteMe( true );
                     //(*i)->SetLeftReason( "was kicked by anti-afk" );
                     //(*i)->SetLeftCode( PLAYERLEAVE_LOST );
-                    //continue;
+                    continue;
                 }
 			}
 		}
@@ -1015,6 +1040,16 @@ bool CBaseGame :: Update( void *fd, void *send_fd )
 		m_KickVotePlayer.clear( );
 		m_StartedKickVoteTime = 0;
 	}
+
+	// vote gg expire code by wuttinunt
+/*
+	if( m_VoteGG && GetTime( ) - m_VoteGGTime >= 60)
+	{
+		SendAllChat( m_GHost->m_Language->VoteGGExpire());
+		m_VoteGG = false;
+		m_VoteGGTime = 0;
+	}
+*/
 
 	// start the gameover timer if there's only one player left
 
@@ -2586,11 +2621,14 @@ void CBaseGame :: EventPlayerLeft( CGamePlayer *player, uint32_t reason )
 		player->SetLeftReason( m_GHost->m_Language->WasUnrecoverablyDroppedFromGProxy( ) );
 	else
 		player->SetLeftReason( m_GHost->m_Language->HasLeftVoluntarily( ) );
+		
+		
 
 	player->SetLeftCode( PLAYERLEAVE_LOST );
 
 	if( !m_GameLoading && !m_GameLoaded )
 		OpenSlot( GetSIDFromPID( player->GetPID( ) ), false );
+		SendAllChat( m_GHost->m_Language->HasLeftVoluntarilyInfo( ) );
 }
 
 void CBaseGame :: EventPlayerLoaded( CGamePlayer *player )
@@ -3465,6 +3503,7 @@ void CBaseGame :: EventGameLoaded( )
 
 		in.close( );
 	}
+	m_GameLoadedTime = GetTime();
 }
 
 unsigned char CBaseGame :: GetSIDFromPID( unsigned char PID )

@@ -230,6 +230,10 @@ CGamePlayer :: CGamePlayer( CGameProtocol *nProtocol, CBaseGame *nGame, CTCPSock
 	m_GProxyDisconnectNoticeSent = false;
 	m_GProxyReconnectKey = GetTicks( );
 	m_LastGProxyAckTime = 0;
+	m_TimeActive = 0;
+	m_VoteGGCheck = false;
+	m_AFKMarked = false;
+
 }
 
 CGamePlayer :: CGamePlayer( CPotentialPlayer *potential, unsigned char nPID, string nJoinedRealm, string nName, BYTEARRAY nInternalIP, bool nReserved ) : CPotentialPlayer( potential->m_Protocol, potential->m_Game, potential->GetSocket( ) )
@@ -243,6 +247,8 @@ CGamePlayer :: CGamePlayer( CPotentialPlayer *potential, unsigned char nPID, str
 	m_InternalIP = nInternalIP;
 	m_JoinedRealm = nJoinedRealm;
 	m_TotalPacketsSent = 0;
+	m_TimeActive = 0;
+	m_AFKMarked = false;
 
 	// hackhack: we initialize this to 1 because the CPotentialPlayer must have received a W3GS_REQJOIN before this class was created
 	// to fix this we could move the packet counters to CPotentialPlayer and copy them here
@@ -277,6 +283,7 @@ CGamePlayer :: CGamePlayer( CPotentialPlayer *potential, unsigned char nPID, str
 	m_DropVote = false;
 	m_KickVote = false;
 	m_EndVote = false;  // code by wuttinunt
+	m_VoteGGCheck = false;
 	m_Muted = false;
 	m_LeftMessageSent = false;
 	m_GProxy = false;
